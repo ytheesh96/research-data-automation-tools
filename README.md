@@ -10,13 +10,13 @@ I built a set of lightweight research automation tools that reduce repetitive ch
 
 ## Component tools
 
-| Tool | Public URL | Public status | What it demonstrates | Notes for reviewers |
-| --- | --- | --- | --- | --- |
-| Photodimerization-in-Water Scout | https://github.com/ytheesh96/hhmi-photodimerization-scout | Public; no license detected during prep | Dependency-free Python scout loop that ranks public/demo candidate rows, preserves caveats, and emits explanation cards plus a visual summary | Public-safe proof artifact only; not a validated predictive model |
-| Titration Calculator | https://github.com/ytheesh96/Titration-calculator | Public; MIT license | Browser app for titration planning, mass/stock-solution calculations, and concentration-change visualization | Emphasizes practical experiment setup and sanity checks |
-| T1 Calculator | https://github.com/ytheesh96/T1-Calculator | Public; MIT license | NMR T1 relaxation fitting from CSV integrals with T1, M0, R2, interactive labels, and visualization | Shows scientific curve fitting workflow packaging |
-| DOSY Calculator | https://github.com/ytheesh96/DOSY-Calculator | Public; MIT license | Browser-local DOSY diffusion analysis with species assignment, weighted-average diffusion constants, and propagated errors | Local processing keeps uploaded data in the browser |
-| MD Simulator | https://github.com/ytheesh96/MD_Simulator | Public; MIT license | Interactive radial distribution function `g(r)` visualization for aggregated vs dispersed regimes | Teaching/demo tool for interpreting local structure |
+| Tool | Public URL | Public status | What it demonstrates |
+| --- | --- | --- | --- |
+| Photodimerization-in-Water Scout | https://github.com/ytheesh96/hhmi-photodimerization-scout | Public; no license detected during prep | Dependency-free Python scout loop that ranks public/demo candidate rows, preserves caveats, and emits explanation cards plus a visual summary |
+| Titration Calculator | https://github.com/ytheesh96/Titration-calculator | Public; MIT license | Browser app for titration planning, mass/stock-solution calculations, and concentration-change visualization |
+| T1 Calculator | https://github.com/ytheesh96/T1-Calculator | Public; MIT license | NMR T1 relaxation fitting from CSV integrals with T1, M0, R2, interactive labels, and visualization |
+| DOSY Calculator | https://github.com/ytheesh96/DOSY-Calculator | Public; MIT license | Browser-local DOSY diffusion analysis with species assignment, weighted-average diffusion constants, and propagated errors |
+| MD Simulator | https://github.com/ytheesh96/MD_Simulator | Public; MIT license | Interactive radial distribution function `g(r)` visualization for aggregated vs dispersed regimes |
 
 ## Link targets and anchors
 
