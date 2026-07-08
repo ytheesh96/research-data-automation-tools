@@ -1,19 +1,51 @@
 # Research Data Automation Tools
 
-Small research software tools for turning chemistry and biophysics workflows into inspectable, browser-local, or dependency-light calculations.
+A public index of small chemistry and biophysics software tools for experiment planning, data analysis, and teaching simulations.
 
-## Project overview
+## Research tools page
 
-This collection packages repetitive research data-processing tasks into transparent tools: titration planning, NMR T1 fitting, DOSY diffusion averaging, radial-distribution-function teaching simulations, and an AI-assisted literature/demo scout for aqueous photodimerization.
+The GitHub Pages index for the collection is here:
 
-The common theme is practical research productivity: scientific inputs go in, calculations and visual checks stay visible, and outputs remain easy to inspect before making experimental decisions.
+<https://ytheesh96.github.io/research-data-automation-tools/>
 
-## Component tools
+Use the page as the browser-facing landing point. This repository keeps the index lightweight while each tool remains inspectable in its own public repository.
 
-| Tool | Public URL | What it demonstrates |
-| --- | --- | --- |
-| Photodimerization-in-Water Scout | https://github.com/ytheesh96/hhmi-photodimerization-scout | Dependency-free Python scout loop that ranks candidate rows, preserves caveats, and emits explanation cards plus a visual summary |
-| Titration Calculator | https://github.com/ytheesh96/Titration-calculator | Browser app for titration planning, mass/stock-solution calculations, and concentration-change visualization |
-| T1 Calculator | https://github.com/ytheesh96/T1-Calculator | NMR T1 relaxation fitting from CSV integrals with T1, M0, R2, interactive labels, and visualization |
-| DOSY Calculator | https://github.com/ytheesh96/DOSY-Calculator | Browser-local DOSY diffusion analysis with species assignment, weighted-average diffusion constants, and propagated errors |
-| MD Simulator | https://github.com/ytheesh96/MD_Simulator | Interactive radial distribution function `g(r)` visualization for aggregated vs dispersed regimes |
+## What this collection is
+
+These tools package repetitive research workflows into transparent, browser-local, or dependency-light software. The through-line is practical research productivity: scientific inputs go in, calculations and visual checks stay visible, and outputs remain easy to inspect before making experimental decisions.
+
+Current areas covered:
+
+- titration planning and stock-solution calculations
+- NMR T1 relaxation fitting
+- DOSY diffusion averaging and species assignment
+- radial-distribution-function teaching simulations
+- photodimerization experiment planning / public-safe triage
+
+## Tools index
+
+| Area | Tool | Source | What it helps with |
+| --- | --- | --- | --- |
+| Photochemistry planning | [Photodimerization Scout](https://github.com/ytheesh96/hhmi-photodimerization-scout) | `hhmi-photodimerization-scout` | Plans the next irradiation experiment from substrate character, medium, organizing media, and observed result |
+| Chemistry planning | [Titration Calculator](https://github.com/ytheesh96/Titration-calculator) | `Titration-calculator` | Plans titrations, mass/stock-solution calculations, and concentration changes |
+| NMR analysis | [T1 Calculator](https://github.com/ytheesh96/T1-Calculator) | `T1-Calculator` | Fits NMR T1 relaxation data from CSV integrals and visualizes fit quality |
+| NMR diffusion analysis | [DOSY Calculator](https://github.com/ytheesh96/DOSY-Calculator) | `DOSY-Calculator` | Computes weighted-average diffusion constants with species assignments and propagated errors |
+| Simulation / teaching | [MD Simulator](https://github.com/ytheesh96/MD_Simulator) | `MD_Simulator` | Visualizes radial distribution behavior for aggregated and dispersed regimes |
+
+## Repository structure
+
+```text
+README.md      # repository overview
+docs/index.md  # GitHub Pages tools index
+```
+
+## Public-data boundary
+
+This repository is an index and portfolio hub. It does not contain private research data, unpublished spectra, raw lab notebooks, or hidden model outputs. Individual tools should keep their own public/private boundaries documented in their repositories.
+
+## Maintaining the page
+
+Update both places when adding or renaming tools:
+
+1. `README.md` for the GitHub repository view.
+2. `docs/index.md` for the GitHub Pages index.
