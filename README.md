@@ -57,9 +57,9 @@ Publication gate used for the initial public release:
 - [x] Re-run local public-safety scan for non-public notes, secrets, and local paths.
 - [x] Use the resume hyperlink `https://github.com/ytheesh96/research-data-automation-tools` after the public page renders correctly.
 
-## Verification performed during package prep
+## Verification performed
 
-- Confirmed all five component GitHub URLs return HTTP 200.
+- Confirmed all five component GitHub URLs return HTTP 200 during prep and again before public release.
 - Queried public GitHub metadata: all five repositories are public; four calculator/demo repositories report MIT license metadata; `hhmi-photodimerization-scout` reports no GitHub license metadata.
-- Cloned public repositories read-only for README/license inspection; no remote writes, visibility changes, pushes, or metadata edits were performed.
+- Cloned public repositories read-only for README/license inspection during prep.
 - Ran local package validation script to check required package files, component URLs, and forbidden private/local-path patterns.
