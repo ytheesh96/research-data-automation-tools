@@ -2,9 +2,9 @@
 
 Public umbrella hub for small research software tools that turn chemistry and biophysics data workflows into inspectable, browser-local, or dependency-light calculations.
 
-This hub is the public target for the resume entry `Research Data Automation Tools`. It links the already-public component repositories and keeps the recruiter-readable summary, component table, public-safety boundary, and resume anchors in one place.
+This hub is the public target for the resume entry `Research Data Automation Tools`. It links the already-public component repositories and keeps a concise project overview, component table, public-safety boundary, and resume anchors in one place.
 
-## Recruiter-readable summary
+## Project overview
 
 I built a set of lightweight research automation tools that reduce repetitive chemistry data-processing work: titration planning, NMR T1 fitting, DOSY diffusion averaging, radial-distribution-function teaching simulations, and a public-safe AI-assisted literature/demo scout for aqueous photodimerization. The common theme is translating scientific inputs into transparent calculations, visual checks, and reproducible outputs that a researcher can inspect before making experimental decisions.
 
@@ -23,7 +23,7 @@ I built a set of lightweight research automation tools that reduce repetitive ch
 Use these stable anchors for resume links or reviewer navigation:
 
 - Hub root: `https://github.com/ytheesh96/research-data-automation-tools`
-- Recruiter summary: `https://github.com/ytheesh96/research-data-automation-tools#recruiter-readable-summary`
+- Project overview: `https://github.com/ytheesh96/research-data-automation-tools#project-overview`
 - Component table: `https://github.com/ytheesh96/research-data-automation-tools#component-tools`
 - Public-safety boundary: `https://github.com/ytheesh96/research-data-automation-tools#public-safety-boundary`
 - Publishing gate: `https://github.com/ytheesh96/research-data-automation-tools#publish-checklist-approval-gate`

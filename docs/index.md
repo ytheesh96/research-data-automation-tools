@@ -8,7 +8,7 @@ These tools package chemistry and biophysics workflows into clear, inspectable s
 
 ## Tools index
 
-| Area | Tool | Link | Recruiter-facing proof point |
+| Area | Tool | Link | What it shows |
 | --- | --- | --- | --- |
 | AI-assisted scientific triage | Photodimerization-in-Water Scout | https://github.com/ytheesh96/hhmi-photodimerization-scout | Transparent public/demo scout loop with caveats and explanation cards |
 | Chemistry planning | Titration Calculator | https://github.com/ytheesh96/Titration-calculator | Automates sample/titration calculations and visualizes concentration changes |
