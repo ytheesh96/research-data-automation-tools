@@ -1,7 +1,7 @@
 # Research Data Automation Tools
 
 
-A public index of small chemistry and biophysics software tools for experiment planning, data analysis, and teaching simulations. These tools package repetitive research workflows into transparent, browser-local, or dependency-light software. The through-line is practical research productivity: scientific inputs go in, calculations and visual checks stay visible, and outputs remain easy to inspect before making experimental decisions.
+An index of small chemistry and biophysics software tools for experiment planning, data analysis, and teaching simulations. These tools package repetitive research workflows into transparent, browser-local, or dependency-light software. The through-line is practical research productivity: scientific inputs go in, calculations and visual checks stay visible, and outputs remain easy to inspect before making experimental decisions.
 
 
 Current areas covered:
